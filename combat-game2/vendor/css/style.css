@@ -1,0 +1,80 @@
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+
+table {
+    border-collapse: collapse;
+    position: relative;
+  }
+
+
+#gameArea{
+    margin:auto;
+    margin-top: 20px;
+    border:1px solid red;
+}
+
+#gameArea tr .tree{
+    height:50px;
+    width:50px;
+    background-color: rgb(3, 116, 3);
+}
+
+#gameArea tr .road{
+    height:50px;
+    width:50px;
+    background-color: rgb(128, 128, 128);
+}
+
+#gameArea tr .gift{
+    background: url('../../img/compact-gun.png') center/cover no-repeat;
+    background-size: 50px 50px;
+    background-color: rgb(128, 128, 128);
+    height:50px;
+    width:50px;
+}
+
+#gameArea tr .enemy{
+    background: url('../../img/enemy.png') center/cover no-repeat;
+    background-size: 60px 60px;
+    background-color: rgb(128, 128, 128);
+    height:50px;
+    width:50px;
+}
+
+table #player{
+    height:50px;
+    width:50px;
+    position: absolute;
+    background: url('../../img/survivor-idle_shotgun_0.png') center/cover no-repeat;
+    background-size: 60px 60px;
+    transform: rotate(0deg);
+}
+
+.controlButtonGroup {
+    height: auto; 
+    width: 300px;
+     margin:auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+ button{
+    /* margin:auto; */
+    /* display: block; */
+    padding:10px;
+    background-color: rgb(241, 255, 49);
+    height: 40px;
+    
+}
+
+.alert{
+    position: absolute;
+    top:20%;
+    left:38%;
+    z-index: 999;
+}
+
